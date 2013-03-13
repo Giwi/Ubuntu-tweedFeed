@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<properties>
+		<author>Giwi Softwares</author>
+		<title>Description</title>
+	</properties>
+	<meta name="keyword" content="Twitter, ubuntu, gnome, gtk, java" />
+	<body>
+		<section name="Ubuntu-tweedFeed">
+			<subsection name="Introduction">
+				<p>
+					This is a small java app which sent notifiction to ubuntu-gnome-lib-notify from a Twitter search.
+				</p>
+				<p>You must compile it on Ubuntu and have libjava-gnome-java installed : </p>
+				<code>sudo apt-get install libjava-gnome-java</code>
+			</subsection>
+			<subsection name="usage">
+			    <p>Notify on a hashtag : </p>
+				<code>java -jar Ubuntu-tweedFeed-0.0.1-SNAPSHOT-jar-with-dependencies.jar -Dmyvar=#snow n</code>
+				<p>Notify on an account : </p>
+				<code>java -jar Ubuntu-tweedFeed-0.0.1-SNAPSHOT-jar-with-dependencies.jar -Dmyvar=@BillGates n</code>
+				<p>Use a proxy without authentication</p>
+				<code>java -Dhttp.proxyHost=proxy.mordor.com -Dhttp.proxyPort=3128 -jar Ubuntu-tweedFeed-0.0.1-SNAPSHOT-jar-with-dependencies.jar -Dmyvar=#snow n</code>
+				<p>Usse a proxy with authentication</p>
+				<code>java -Dhttp.proxyHost=proxy.mordor.com -Dhttp.proxyPort=3128 -jar Ubuntu-tweedFeed-0.0.1-SNAPSHOT-jar-with-dependencies.jar -Dmyvar=#snow y loggin passwd</code>
+			</subsection>
+		</section>
+	</body>
+</document>
