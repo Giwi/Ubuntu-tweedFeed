@@ -1,5 +1,5 @@
 ## Ubuntu-tweedFeed
-	This is a small java app which sent notifiction to ubuntu-gnome-lib-notify from a Twitter search.
+This is a small java app which sent notifiction to ubuntu-gnome-lib-notify from a Twitter search.
 
 ___
 
